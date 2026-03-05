@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Save the Weavers – Home</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Save The Weavers | Home</title>
 </head>
 <body>
+    <header>
+        <a href="index.html" class="logo-area"><img src="images/logo.png">Save The Weavers</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="mission.html">Mission</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="donate.html">Donate</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<nav class="nav">
-  <div class="nav-logo">
-    <img src="images/logo.png" alt="Save the Weavers Logo" id="logoDisplay" style="height:150px; width:150px; object-fit:contain;" />    
 
-    <div class="nav-title">Save the <span>Weavers</span></div>
-  </div>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="mission.html">Mission</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="donate.html">Donate</a></li>
-  </ul>
-  <a href="donate.html" class="nav-donate-btn">❤️ Donate Now</a>
-</nav>
+
+    <section class="container">
 
 <!-- Hero -->
 <div class="hero">
@@ -43,53 +40,20 @@
   <div class="stat"><div class="stat-num">359</div><div class="stat-label">Sewing Machines Donated</div></div>
   <div class="stat"><div class="stat-num">1,001+</div><div class="stat-label">Children Supported</div></div>
 </div>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+            <div style="flex: 1; min-width: 300px; border: 2px solid var(--primary); padding: 10px; text-align: center;">
+                <h3>Upcoming Sports Event</h3>
+                <img src="images/sports-flyer.png" alt="Sports Event Flyer" style="width: 100%;">
+            </div>
+            
+            <div style="flex: 1; min-width: 300px; border: 2px solid var(--accent); padding: 10px; text-align: center;">
+                <h3>Scan to Donate</h3>
+                <img src="images/qrcode.png" alt="Donation QR Code" style="width: 200px;">
+                <p>Support our education and sewing machine programs.</p>
+            </div>
+        </div>
 
-<!-- Flyer & QR Code Section -->
-<div style="background:#FDF6EC; padding:80px 40px;">
-  <div style="max-width:1100px; margin:0 auto; text-align:center;">
 
-    <h2 style="font-family:'Georgia',serif; font-size:38px; font-weight:700; color:#8B1A1A; margin-bottom:12px;">
-      Spread the <span style="color:#E8651A;">Word</span>
-    </h2>
-    <div style="width:60px; height:4px; background:linear-gradient(90deg,#E8651A,#C8941A); margin:0 auto 16px; border-radius:2px;"></div>
-    <p style="font-size:17px; color:#666; margin-bottom:50px; max-width:600px; margin-left:auto; margin-right:auto;">
-      Download our flyer and share it with your community — or scan the QR code to donate instantly.
-    </p>
-
-<div class="flyer-qr-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:50px; align-items:start; max-width:800px; margin:0 auto;">
-      <!-- Flyer -->
-      <div style="background:white; border-radius:16px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08);">
-        <h3 style="font-family:'Georgia',serif; font-size:22px; color:#8B1A1A; margin-bottom:20px;">📄 Our Flyer</h3>
-        <img
-          src="images/flyer.png"
-          alt="Save the Weavers Flyer"
-          style="width:100%; border-radius:10px; box-shadow:0 2px 12px rgba(0,0,0,0.12); margin-bottom:20px;"
-        />
-<a href="files/savetheweavers-flyer.pdf" target="_blank" class="btn-primary" 
-   style="display:inline-block; font-size:15px; padding:12px 28px;">
-  📄 View & Download Flyer
-</a>
-      </div>
-
-      <!-- QR Code -->
-      <div style="background:white; border-radius:16px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08);">
-        <h3 style="font-family:'Georgia',serif; font-size:22px; color:#8B1A1A; margin-bottom:20px;">📱 Donate via QR Code</h3>
-        <img
-          src="images/qrcode.png"
-          alt="Donation QR Code"
-          style="width:200px; height:200px; object-fit:contain; border-radius:10px; box-shadow:0 2px 12px rgba(0,0,0,0.12); margin-bottom:20px;"
-        />
-        <p style="color:#666; font-size:14px; line-height:1.6; margin-bottom:20px;">
-          Scan with your phone camera to donate directly — quick, safe, and secure.
-        </p>
-        <a href="donate.html" class="btn-primary" style="display:inline-block; font-size:15px; padding:12px 28px;">
-          ❤️ Donate Now
-        </a>
-      </div>
-
-    </div>
-  </div>
-</div>
 <!-- Story -->
 <div class="section">
   <div class="section-title">The Story Behind <span>Every Thread</span></div>
@@ -102,9 +66,9 @@
       <p><strong>Save the Weavers exists to change this reality.</strong></p>
     </div>
     <div class="story-visual">
-      <!-- <div class="loom-graphic">🪡</div> -->
+      <!-- <div class="loom-graphic"></div> -->
       <h3>"The loom is our heritage. Help us make it our livelihood."</h3>
-      <p>— A weaver from Dharmavaram, Andhra Pradesh</p>
+      <p> A weaver from telugu states</p>
     </div>
   </div>
 </div>
@@ -116,15 +80,15 @@
     <div class="divider"></div>
     <div class="cards">
       <div class="card">
-        <div class="card-icon">🪡</div>
+        <div class="card-icon"></div>
         <div class="card-body"><h3>Family Support</h3><p>Emergency financial aid and food support to weaver families during lean periods, ensuring no family suffers for preserving our cultural heritage.</p></div>
       </div>
       <div class="card">
-        <div class="card-icon">🧵</div>
+        <div class="card-icon"></div>
         <div class="card-body"><h3>Sewing Machine Donations</h3><p>We train women in tailoring and gift them sewing machines — creating a second income stream and economic independence for the household.</p></div>
       </div>
       <div class="card">
-        <div class="card-icon">📚</div>
+        <div class="card-icon"></div>
         <div class="card-body"><h3>Children's Education</h3><p>We sponsor school fees, books, and digital tools for children of weavers — giving every child the same chance to dream and succeed.</p></div>
       </div>
     </div>
@@ -138,38 +102,12 @@
   <a href="donate.html" class="btn-primary" style="font-size:18px;padding:16px 45px;">Make a Difference Today</a>
 </div>
 
-<footer>
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <div class="logo-text">🪡 Save the Weavers</div>
-      <p>A non-profit dedicated to preserving India's weaving heritage and uplifting the families who keep it alive. Registered NGO · 80G Tax Exemption.</p>
-      <div class="social-links"><a>f</a><a>𝕏</a><a>in</a><a>▶</a></div>
-    </div>
-    <div><h4>Quick Links</h4>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="mission.html">Our Mission</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="donate.html">Donate Now</a></li>
-      </ul>
-    </div>
-    <div><h4>Programs</h4>
-      <ul>
-        <li><a href="#">Sewing Machine Drive</a></li>
-        <li><a href="#">Education Fund</a></li>
-        <li><a href="#">Family Relief Aid</a></li>
-        <li><a href="#">Weaver Skills Training</a></li>
-        <li><a href="contact.html">Volunteer With Us</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2025 Save the Weavers Foundation. All rights reserved.</span>
-    <span>Made with ❤️ for India's Weavers</span>
-  </div>
-</footer>
 
 <div class="toast" id="toast"></div>
 <script src="js/main.js"></script>
+    </section>
+
+
+    <footer>&copy; 2024 Save The Weavers NGO</footer>
 </body>
 </html>
